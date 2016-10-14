@@ -200,7 +200,8 @@ char lcd_start (void)
     // From power up                   
     
     POWER_UP_DELAY        
-    for ( i=0 ; i < 5 ; i++ )   
+    for ( i=0 ; i < 5 ; i++ ) 
+    {
         lcd_command ( lcd_init [i] ) ;
     }
     lcd_clear () ;
