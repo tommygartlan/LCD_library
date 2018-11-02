@@ -23,11 +23,11 @@ char lcd_start ( void ) ;
 
 char lcd_clear ( void ) ;
 
-char lcd_print_ch ( char ch ) ;
+char lcd_print_ch ( unsigned char ch ) ;
 
-char lcd_print ( const char * message ) ;
+char lcd_print ( const unsigned char * message ) ;
 
-char lcd_cursor ( char x, char y ) ;
+char lcd_cursor ( unsigned char x, unsigned char y ) ;
 
 char lcd_cursor_on ( void ) ;
 

@@ -168,9 +168,9 @@ char lcd_cursor ( unsigned char x,
 const unsigned char lcd_init [5] = 
 {
 /*  LCD initialise                 */    
-    0x33,  //removing this so I don't think its needed T.G(is needed!!!)
+    0x33,  //removing this so I don't think its needed T.G(it is needed!!!)
 /*  Set for 4 bit operation        */    
-    0x32,	// removing this so I don't think its needed T.G(is needed!!!!)
+    0x32,	// removing this so I don't think its needed T.G(it is needed!!!!)
     
 //  'Function Set' command
 //  4-bit mode,2 line display, 5*8 dots    
